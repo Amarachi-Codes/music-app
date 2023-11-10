@@ -1,0 +1,273 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+
+@import url('https://fonts.cdnfonts.com/css/inter');
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+.fa-plus{
+    padding: 4px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+}
+.app_container .app_content{
+    width: 100%;
+}
+.app_container .app_content .header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+/* background-color: yellowgreen; */
+padding: 16px 48px;
+margin: 20px 0;
+}
+
+
+.app_container .app_content .header .icon ul span{
+    font-weight: 600;
+    padding: 0 4px;
+   
+}
+.app_container .app_content .header .icon ul li{
+    list-style: none;
+    text-decoration: none;
+   
+}
+.app_container .app_content .header .icon ul li a{
+    color: black;
+}
+.app_container .app_content .header .icon ul li a i{
+    font-size: larger;
+    
+}
+.app_container .app_content .header .input_header input{
+    width: 240px;
+    height: 28px;
+    padding: 8px;
+    border: 1px;
+    border-color: white;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.app_container .app_content .header .notification_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    /* background-color: blueviolet; */
+}
+.app_container .app_content .header .notification_header i{
+    background-color: whitesmoke;
+    padding: 6px;
+    border-radius: 10px;
+}
+.app_container .app_content .header .notification_header img{
+    width: 30px;
+    height: 30px;
+    border-radius: 80%;
+
+}
+.app_container .app_content .app_body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 56px;
+   
+}
+.app_container .app_content .app_body .main{
+    width: 70%;
+    
+}
+
+.app_container .app_content .app_body .main .main_body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    gap: 54px;
+}
+.app_container .app_content .app_body .main .main_body .topchart{
+    padding-bottom: 48px;
+    
+}
+.app_container .app_content .app_body .main .main_body .topchart .title_right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    
+}
+
+.app_container .app_content .app_body .main .main_body .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 220px;
+    padding-top: 20px;
+}
+.app_container .app_content .app_body .main .main_body .card .card_content{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    align-items: center;
+}
+.app_container .app_content .app_body .main .main_body .card .card_content img{
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    
+}
+.app_container .app_content .app_body .playlist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    padding-bottom: 32px;
+
+}
+.app_container .app_content .app_body .playlist .playlist_card img{
+    width: 100px;
+    height:100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.app_container .app_content .app_body .main .footer_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.app_container .app_content .app_body .main .main_footer .footer_group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+   
+    gap: 320px;
+}
+.app_container .app_content .app_body .main .main_footer .footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.app_container .app_content .app_body .main .main_footer .footer_image img{
+    width: 76px;
+    height: 56px;
+    object-fit: cover;
+    margin: 22px 0;
+    border-radius: 8px;
+}
+.app_container .app_content .app_body .right_sidebar{
+    width: 30%;
+    background-color: wheat;
+    min-height: 80vh;
+    margin-left: 40px;
+    border-top-left-radius: 10px;
+    position: fixed;
+    right: 0;
+    
+}
+.app_container .app_content .app_body .right_sidebar .righsidebar_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.app_container .app_content .app_body .right_sidebar .sidebar_img{
+    padding-top: 36px;
+    
+}
+.app_container .app_content .app_body .right_sidebar .sidebar_img .left_img{
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    
+}
+.app_container .app_content .app_body .right_sidebar .sidebar_img .middle_img{
+    
+    width: 148px;
+    height: 148px;
+    border-radius: 28px;
+}
+.app_container .app_content .app_body .right_sidebar .sidebar_img .right_img{
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+}
+.app_container .app_content .app_body .right_sidebar .sidebar_img img{
+width: 88px;
+height: 88px;
+}
+.app_container .app_content .app_body .right_sidebar .right_sidebar_title {
+    text-align: center;
+    padding: 24px 0;
+}
+.app_container .app_content .app_body .right_sidebar .right_sidebar_title p{
+    padding-top: 10px;
+    font-size: x-small;
+    color: grey;
+}
+.app_container .app_content .app_body .right_sidebar .right_sidebar_songs{
+    padding: 0 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+.app_container .app_content .app_body .right_sidebar .right_sidebar_songs .songs{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 16px;
+}
+.app_container .app_content .app_body .right_sidebar .right_sidebar_songs .songs img{
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+}
+.app_container .app_content .app_body .right_sidebar .right_sidebar_songs .songs .song_title p{
+    font-size: x-small;
+    color: grey;
+    padding-top: 4px;
+}
+.app_container .app_content .app_body .right_sidebar .playing{
+ padding: 32px 8px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.app_container .app_content .app_body .right_sidebar .playing i{
+    background-color:transparent;
+    border: 1px solid grey;
+    padding: 4px;
+    margin: 0 auto;
+    border-radius: 8px;
+    
+}
+.app_container .app_content .app_body .right_sidebar .playing .fa-repeat{
+    border: none;
+}
+.app_container .app_content .app_body .right_sidebar .playing .fa-download{
+    border: none;
+}
+.app_container .app_content .app_body .right_sidebar .playing .fa-pause{
+    padding: 8px 12px;
+    background-color: #f39f2d;
+    border: none;
+}
+.app_container .app_content .app_body .right_sidebar .right_sidebar_btn{
+    text-align: center;
+}
+.app_container .app_content .app_body .right_sidebar .right_sidebar_btn button{
+    padding:12px;
+    border-radius: 12px;
+    border-color: #007796;
+    color: white;
+    background-color: #007796;
+}
+.app_container .app_content .app_body .right_sidebar .right_sidebar_btn button .fa-wifi{
+padding-right: 24px;
+}
+.app_container .app_content .app_body .right_sidebar .right_sidebar_btn button .fa-volume-high{
+    padding-left: 24px;
+}
